@@ -1,0 +1,9 @@
+name = "studyverse-proxy"
+main = "index.js"
+compatibility_date = "2023-12-01"
+
+[env.production.vars]
+API_BASE_URL = "https://edunova-pw.vercel.app/api"
+
+[env.development.vars]
+API_BASE_URL = "https://edunova-pw.vercel.app/api"
