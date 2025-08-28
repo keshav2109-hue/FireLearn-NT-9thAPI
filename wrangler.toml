@@ -3,7 +3,7 @@ main = "index.js"
 compatibility_date = "2023-12-01"
 
 [env.production.vars]
-API_BASE_URL = "https://edunova-pw.vercel.app/api"
+API_BASE_URL = "https://powerstudy.site/api/AllBatches"
 
 [env.development.vars]
-API_BASE_URL = "https://edunova-pw.vercel.app/api"
+API_BASE_URL = "https://powerstudy.site/api/AllBatches"
