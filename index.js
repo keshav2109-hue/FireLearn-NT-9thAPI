@@ -2,9 +2,8 @@ const express = require('express');
 const fetch = require('node-fetch');
 const app = express();
 
-// Approve all origins — in production, replace '*' with your actual domain
 app.use((req, res, next) => {
-  res.setHeader('Access-Control-Allow-Origin', '*');
+  res.setHeader('Access-Control-Allow-Origin', 'https://studyverse-proxy.kunalkankani5.workers.dev');
   res.setHeader('Access-Control-Allow-Methods', 'GET, OPTIONS');
   res.setHeader('Access-Control-Allow-Headers', 'Content-Type');
   next();
