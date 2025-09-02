@@ -1,0 +1,9 @@
+name = "api-proxy"
+main = "index.js"
+compatibility_date = "2023-12-01"
+
+[env.production]
+name = "api-proxy"
+
+[env.development]
+name = "api-proxy-dev"
