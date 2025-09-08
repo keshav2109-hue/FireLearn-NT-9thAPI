@@ -32,7 +32,7 @@ async function handleRequest(request) {
     }
 
     // Construct the target API URL
-    const targetUrl = `https://viewer-ten-psi.vercel.app/view.php?token=my_secret_key_123&view=${encodeURIComponent(view)}`
+    const targetUrl = `https://automation9thphp.vercel.app/api/api.php?token=my_secret_key_123&view=${encodeURIComponent(view)}`
     
     // Forward the request to the target API
     const response = await fetch(targetUrl, {
